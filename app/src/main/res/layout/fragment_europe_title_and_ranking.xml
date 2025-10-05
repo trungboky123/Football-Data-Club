@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ranking.EuropeTitleAndRanking">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/titleRanking"
+        android:name="vn.edu.footballdataclub.ranking.TitleRankingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/fragment_title_ranking">
+
+    </androidx.fragment.app.FragmentContainerView>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/europeRanking"
+        android:name="vn.edu.footballdataclub.ranking.EuropeRankingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_marginTop="0dp"
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/fragment_europe_ranking">
+
+    </androidx.fragment.app.FragmentContainerView>
+
+</LinearLayout>
