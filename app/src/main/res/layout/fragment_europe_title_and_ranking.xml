@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".ranking.EuropeTitleAndRanking">
+    tools:context=".EuropeTitleAndRanking">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/titleRanking"
-        android:name="vn.edu.footballdataclub.ranking.TitleRankingFragment"
+        android:name="vn.edu.footballdataclub.TitleRankingFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
@@ -19,7 +19,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/europeRanking"
-        android:name="vn.edu.footballdataclub.ranking.EuropeRankingFragment"
+        android:name="vn.edu.footballdataclub.EuropeRankingFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="4"
