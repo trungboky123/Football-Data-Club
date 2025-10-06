@@ -844,7 +844,9 @@
             android:gravity="center"
             android:text="North America Football / Soccer Clubs Ranking"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold">
+
+        </TextView>
 
         <LinearLayout
             android:layout_width="match_parent"
